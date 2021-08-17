@@ -10,7 +10,6 @@ class Home extends StatelessWidget {
           title: Text("Catalog"),
         ),
         drawer: Drawer(),
-        backgroundColor: Colors.grey,
         body: Center(
             child: Container(
           child: Text('Hello its been $days days'),
